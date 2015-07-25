@@ -39,8 +39,5 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 5930598400
 # Recovery
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.qcom
 
-#TWRP config
-TW_THEME := portrait_hdpi
-
 # inherit from the proprietary version
 -include vendor/motorola/peregrine/BoardConfigVendor.mk
