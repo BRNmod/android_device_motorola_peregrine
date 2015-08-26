@@ -5,3 +5,5 @@ $(call inherit-product, vendor/brn/config/common_full_phone.mk)
 
 PRODUCT_RELEASE_NAME := peregrine
 PRODUCT_NAME := brn_peregrine
+
+PRODUCT_GMS_CLIENTID_BASE := android-motorola
